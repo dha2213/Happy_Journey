@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow-x: hidden;
+}
+
+.car {
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* background-image: url("./images/11.jpg"); */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: contain;
+}
+
+.navigation {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: black;
+    color: wheat;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.navimg {
+    height: 80vh;
+}
+
+.card-image {
+    height: 150px;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.destinationcard {
+    height: 350px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 9vw;
+    overflow-y: scroll;
+}
+
+.destinationcard1 {
+    height: 280px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    cursor: pointer;
+    margin-left: 9vw;
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width: 750px) {
+    .navimg {
+        height: 37vh;
+    }
+}
+
+.cardcontainer {
+    height: 350px;
+    cursor: pointer;
+    margin-left: 1px;
+    width: 500px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #17406c;
+    color: white;
+    opacity: 0.8;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.yoga {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.post {
+    margin-top: 2px;
+    margin-left: 200px;
+}
+
+.postin {
+    color: blue;
+}
+
+.content {
+    border: 2px solid ghostwhite;
+    box-sizing: border-box;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: aliceblue;
+}
+
+.footer {
+    height: 400px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 35vw;
+    margin-right: 30vw;
+}
+
+.postquery {
+    margin-left: 35vw;
+}
+
+.experinces {
+    margin-top: 20px;
+}
